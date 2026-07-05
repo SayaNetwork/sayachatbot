@@ -16,7 +16,7 @@
       "url": "heroku/python"
     }
   ],
-  "repository": "https://github.com/doraemon890/ANNIE-X-CHATBOT",
+  "repository": "https://github.com/SayaNetwork/sayachatbot",
   "env": {
     "API_ID": {
       "description": "Your Telegram API ID",
@@ -41,7 +41,7 @@
     "OWNER_USERNAME": {
       "description": "Username of the bot owner",
       "required": true,
-      "value": "JARVIS_V2"
+      "value": "sexyafraid"
     },
     "GPT_API": {
       "description": "Your GPT API Key from OpenAI.",
@@ -56,7 +56,7 @@
     "UPDATE_CHANNEL": {
       "description": "Name of the update channel",
       "required": true,
-      "value": "JARVIS_V_SUPPORT"
+      "value": "SayaProject"
     }
   }
 }
