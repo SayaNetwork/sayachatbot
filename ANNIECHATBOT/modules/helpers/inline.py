@@ -15,19 +15,19 @@ DEV_OP = [
         InlineKeyboardButton(text="« ʜᴇʟᴘ »", callback_data="HELP"),
     ],
     [
-        InlineKeyboardButton(text="❄️ sᴏᴜʀᴄᴇ ❄️", callback_data="SOURCE"),
-        InlineKeyboardButton(text="☁️ ᴀʙᴏᴜᴛ ☁️", callback_data="ABOUT"),
+        InlineKeyboardButton(text="sᴏᴜʀᴄᴇ", callback_data="SOURCE"),
+        InlineKeyboardButton(text="ᴀʙᴏᴜᴛ", callback_data="ABOUT"),
     ],
     [
-        InlineKeyboardButton(text="🥀 ᴏᴡɴᴇʀ 🥀", user_id=OWNER),
-        InlineKeyboardButton(text="✨ ꜱᴜᴘᴘᴏʀᴛ ✨", url=f"https://t.me/{SUPPORT_GROUP}"),
+        InlineKeyboardButton(text="ᴏᴡɴᴇʀ 🥀", user_id=OWNER),
+        InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_GROUP}"),
     ],
 ]
 
 PNG_BTN = [
     [
         InlineKeyboardButton(
-            text="😍 ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ 😍",
+            text="ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ",
             url=f"https://t.me/{app.username}?startgroup=true",
         ),
     ],
@@ -49,8 +49,8 @@ BACK = [
 
 HELP_BTN = [
     [
-        InlineKeyboardButton(text="🐳 ᴄʜᴀᴛʙᴏᴛ 🐳", callback_data="CHATBOT_CMD"),
-        InlineKeyboardButton(text="🎄 ᴛᴏᴏʟs 🎄", callback_data="TOOLS_DATA"),
+        InlineKeyboardButton(text="ᴄʜᴀᴛʙᴏᴛ", callback_data="CHATBOT_CMD"),
+        InlineKeyboardButton(text="ᴛᴏᴏʟs", callback_data="TOOLS_DATA"),
     ],
     [
         InlineKeyboardButton(text="⦿ ʙᴀᴄᴋ ⦿", callback_data="BACK"),
