@@ -99,7 +99,7 @@ CHATBOT_BACK = [
 HELP_START = [
     [
         InlineKeyboardButton(text="« ʜᴇʟᴘ »", callback_data="HELP"),
-        InlineKeyboardButton(text="🐳 ᴄʟᴏsᴇ 🐳", callback_data="CLOSE"),
+        InlineKeyboardButton(text="ᴄʟᴏsᴇ", callback_data="CLOSE"),
     ],
 ]
 
@@ -119,12 +119,12 @@ ABOUT_BTN = [
         InlineKeyboardButton(text="« ʜᴇʟᴘ »", callback_data="HELP"),
     ],
     [
-        InlineKeyboardButton(text="🍾 ᴏᴡɴᴇʀ 🍾", user_id=OWNER),
-        InlineKeyboardButton(text="❄️ sᴏᴜʀᴄᴇ ❄️", callback_data="SOURCE"),
+        InlineKeyboardButton(text="ᴏᴡɴᴇʀ", user_id=OWNER),
+        InlineKeyboardButton(text="sᴏᴜʀᴄᴇ", callback_data="SOURCE"),
     ],
     [
-        InlineKeyboardButton(text="🐳 ᴜᴘᴅᴀᴛᴇs 🐳", url=f"https://t.me/{UPDATE_CHANNEL}"),
-        InlineKeyboardButton(text="✨ ꜱᴜᴘᴘᴏʀᴛ ✨", url=f"https://t.me/{SUPPORT_GROUP}"),
+        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/{UPDATE_CHANNEL}"),
+        InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_GROUP}"),
     ],
     [
         InlineKeyboardButton(text="⦿ ʙᴀᴄᴋ ⦿", callback_data="BACK"),
