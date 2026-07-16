@@ -4,6 +4,7 @@ Entrypoint wrapper to satisfy platforms that expect /app/bot.py
 This simply runs the package module entrypoint ANNIECHATBOT (same as `python3 -m ANNIECHATBOT`).
 """
 import asyncio
+asyncio.set_event_loop(asyncio.new_event_loop())
 
 from ANNIECHATBOT.__main__ import jarvis_boot
 from ANNIECHATBOT import LOGGER
