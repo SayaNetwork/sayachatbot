@@ -5,9 +5,9 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Telegram API credentials
-API_ID = os.getenv("", None)
-API_HASH = os.getenv("", None)
-GPT_API = os.getenv("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")
+API_ID = os.getenv("API_ID", None)
+API_HASH = os.getenv("API_HASH", None)
+GPT_API = os.getenv("GPT_API", None)
 
 # Bot token and MongoDB URL fetched from environment variables
 BOT_TOKEN = os.getenv("BOT_TOKEN", None)
